@@ -7,8 +7,6 @@ export function SiteNav() {
   const links = [
     { to: "/", label: "Home" },
     { to: "/search", label: "Explore" },
-    { to: "/deals", label: "Deals" },
-    { to: "/trips", label: "My Trips" },
   ] as const;
 
   return (
